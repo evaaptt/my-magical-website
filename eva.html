@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eva's First Page</title>
+    <style>
+      
+
+body {
+       button {
+  background-color: #ff66cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+ background-color: #f1e0e6; /* Soft pink background */
+        font-family: Arial, sans-serif; /* Change font */
+        color: #333; /* Default text color for visibility */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        height: 100vh; /* Full viewport height */
+        display: flex; /* Make content centered */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+
+      h1 {
+        color: #ff66cc; /* Make your heading pink */
+        text-align: center; /* Center the text */
+        font-size: 2em; /* Make it a little bigger */
+      }
+
+      p {
+        color: #333333; /* Dark text for your paragraph */
+        font-size: 18px; /* Set the font size */
+        text-align: center; /* Center the paragraph */
+        margin-top: 10px; /* Add space above the paragraph */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hey, I’m Eva and I’m learning code!</h1>
+    <p>This is my first ever web page. Isn’t it cute?</p>
+   <img src="https://i.pinimg.com/736x/b5/cc/37/b5cc37052849b12b35fdd422e4c849cd.jpg" alt="a cute image" width="300">
+    <button onclick="changeBackground()">Click me</button>
+<script>
+  function changeBackground() {
+    document.body.style.backgroundColor = "#c8a2c8";
+  }
+</script>
+
+
+  </body>
+</html>
